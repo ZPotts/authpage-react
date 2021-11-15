@@ -1,6 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
+import AuthForm from './AuthForm';
+
 function App() {
   return (
     <div className="App">
@@ -106,18 +108,7 @@ function App() {
      
       <div id="main" className="col p-5">
 
-      
-        <div className="row">
-          <div className="col col-5 p-3 border-end border-dark">
-
-          <p>FORM</p>
-
-          </div>
-          <div className="col col-7">
-            Results
-          </div>
-        </div>
-     
+          <AuthForm />
 
         <div id="name-auth" className="type-of-auth p-2">
           <h2 className="ms-2"><i className="bi bi-person-check-fill"></i>
@@ -133,7 +124,6 @@ function App() {
                   uses auths.</em></p>
             </div>
             <div className="col col-9 border-start border-dark px-4 pt-0 pb-4">
-
 
 
               <h5><i className="bi-question-circle"classNa></i> When to use it</h5>
