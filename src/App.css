@@ -1,0 +1,146 @@
+/* 
+orange: #f58220;
+light gold: #c09853;
+light blue: #d9edf7;
+middle blue: #bce8f1;
+dark blue: #3a87ad;
+blue: #0087ab;
+alert-yellow: #fcf8e3;
+gray: #f5f5f5;
+*/
+
+body {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+  }
+  
+  html {
+    height: -webkit-fill-available;
+  }
+  
+  
+  /* general elements */
+  h5 {
+    color: #0087ab;
+  }
+  
+  h5:not(:first-of-type){
+    margin-top: 2.5rem;
+  }
+  
+  
+  hr {
+    margin: 0 0 .5rem 0;
+    opacity: .5;
+    color: #0087ab
+  }
+  
+  
+  /* fonts */
+  .leader {
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  main {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 100vh;
+    height: -webkit-fill-available;
+    max-height: 100vh;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  
+  .b-example-divider {
+    flex-shrink: 0;
+    width: 1.5rem;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+  }
+  
+  .bi {
+    vertical-align: -.125em;
+    pointer-events: none;
+    fill: currentColor;
+  }
+  
+  .nav-flush .nav-link {
+    border-radius: 0;
+  }
+  
+  .scrollarea {
+    overflow-y: auto;
+  }
+  
+  .fw-semibold { font-weight: 600; }
+  .lh-tight { line-height: 1.25; }
+  
+  /* SIDEBAR */
+  .sidebar-header {
+    display: inline-flex;
+    align-items: center;
+    padding: .25rem .5rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, .65);
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .sidebar-header::before {
+    width: 1.25em; 
+  }
+  
+  .sidebar-header a {
+    margin-left: -.5rem;
+    padding: .1875rem .5rem;
+    color: rgba(0, 0, 0, .65); 
+    text-decoration: none;
+  }
+  
+  .sidebar-header a:hover, 
+  .sidebar-header a:focus
+  {
+    color: rgba(0, 0, 0, .85);
+    background-color: #c09853;
+  }
+  
+  
+  .sidebar-nav a {
+    display: inline-flex;
+    padding: .1875rem .5rem;
+    margin-top: .125rem;
+    margin-left: 1.25rem;
+    text-decoration: none;
+  }
+  .sidebar-nav a:hover,
+  .sidebar-nav a:focus {
+    background-color: #c09853;
+  }
+  
+  /* AUTHBLOCKS */
+  .type-of-auth {
+    margin-bottom: 2.5rem;
+    background-color: #f58220;
+  }
+  
+  .type-of-auth:not(:first-of-type){
+    margin-top: 4rem;
+  }
+  
+  .type-of-auth h2 {
+    margin: 0;
+  }
+  
+  .authblock {
+    background-color:#ffffff; 
+    margin-bottom: 9rem;
+  }
+  
+  .tech_col1 {
+    font-weight: bold;
+    width: 35%;
+  }
